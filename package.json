@@ -1,0 +1,14 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": " mocha eventstests.coffee --compilers coffee:coffee-script/register --watch"
+  },
+  "author": "Will Zhou <will3.git@gmail.com> (http://github.com/will3)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  }
+}
